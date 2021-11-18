@@ -42,7 +42,8 @@ async function greenFunction() {
 
         app.post('/services', async (req, res) => {
             const service = req.body;
-            const result = await ordersCollection.insertOne(service);
+            console.log(service)
+            const result = await servicesCollection.insertOne(service);
             res.json(result);
         });
 
@@ -52,6 +53,7 @@ async function greenFunction() {
         app.post('/orders', async (req, res) => {
 
             const order = req.body;
+            console.log(order)
             const result = await ordersCollection.insertOne(order);
             res.json(result);
         });
