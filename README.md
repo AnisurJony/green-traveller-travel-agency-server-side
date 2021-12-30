@@ -15,7 +15,7 @@ Express is a minimal and flexible Node.js web application framework that provide
 
 ## mongoDB 
 
-I have Used mongoDB as database. this is a no SQL data base that working with json object. MongoDB, the most popular database for modern apps, and MongoDB Atlas, the global cloud database on AWS, Azure, and GCP
+I have Used mongoDB as database. this is a no SQL data base that working with json object. MongoDB, the most popular database for modern apps, and MongoDB Atlas, the global cloud database on AWS, Azure
 
 ## core
 

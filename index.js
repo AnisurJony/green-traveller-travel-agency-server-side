@@ -30,12 +30,12 @@ async function greenFunction() {
 
 
         //------------------- get services --------------//
-
         app.get('/services', async (req, res) => {
             const cursor = servicesCollection.find({});
             const orders = await cursor.toArray();
             res.json(orders);
         });
+
 
 
         //---------------- post service --------------//
